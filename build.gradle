@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'io.github.pulsebeat02'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'io.github.pulsebeat02.aptjava.Main'
+    }
+}
